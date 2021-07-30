@@ -1,6 +1,6 @@
 #terraform setting bloc
 terraform{
-    required_provider{
+    required_providers {
         aws = {
             source = "hashicorp/aws"
         }
