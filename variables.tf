@@ -1,4 +1,4 @@
-varible "aws_region" {
+variable "aws_region" {
     description = "Region in which aws resrouce is going to be created"
     type = string
     region = "us-east-1"
@@ -16,5 +16,5 @@ variable "instance_type" {
 variable "instance_keypair" {
   description = "ec2 instance key"
   type = string
-  default = hclsg
+  default = "hclsg"
 }
