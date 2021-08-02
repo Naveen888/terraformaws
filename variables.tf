@@ -16,5 +16,5 @@ variable "instance_type" {
 variable "instance_keypair" {
   description = "ec2 instance key"
   type = string
-  default = "hclsg"
+  default = "terrafrom"
 }
