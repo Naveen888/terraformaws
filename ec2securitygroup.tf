@@ -1,4 +1,4 @@
-resource "aws_security_group" "vpc-ssh"{
+resource "aws_security_group" "vpc-ssh1"{
     name        = "vpc-ssh"
   description = "dev vpc ssh"
 
@@ -25,7 +25,7 @@ resource "aws_security_group" "vpc-ssh"{
 }
 
 #security group for web traffic
-resource "aws_security_group" "vpc-web"{
+resource "aws_security_group" "vpc-web1"{
     name        = "vpc-web"
   description = "dev vpc web"
 
