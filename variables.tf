@@ -1,7 +1,7 @@
 variable "aws_region" {
     description = "Region in which aws resrouce is going to be created"
     type = string
-    default = "us-east-1"
+    default = "ap-northeast-2"
 }
 
 #aws ec2 instance type
