@@ -1,5 +1,5 @@
 resource "aws_security_group" "vpc-ssh1"{
-    name        = "vpc-ssh1"
+    name        = "vpc-ssh-gopal"
   description = "dev vpc ssh"
 
   ingress {
@@ -26,7 +26,7 @@ resource "aws_security_group" "vpc-ssh1"{
 
 #security group for web traffic
 resource "aws_security_group" "vpc-web1"{
-    name        = "vpc-web1"
+    name        = "vpc-web-gopal"
   description = "dev vpc web"
 
   ingress {
